@@ -16,6 +16,7 @@
 		70889C312B1912C90072AA60 /* NumberIdentifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70889C302B1912C90072AA60 /* NumberIdentifierTests.swift */; };
 		70889C3B2B1912C90072AA60 /* NumberIdentifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70889C3A2B1912C90072AA60 /* NumberIdentifierUITests.swift */; };
 		70889C3D2B1912C90072AA60 /* NumberIdentifierUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70889C3C2B1912C90072AA60 /* NumberIdentifierUITestsLaunchTests.swift */; };
+		70889C4A2B1914E70072AA60 /* MNISTClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 70889C492B1914E60072AA60 /* MNISTClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		70889C362B1912C90072AA60 /* NumberIdentifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberIdentifierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70889C3A2B1912C90072AA60 /* NumberIdentifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberIdentifierUITests.swift; sourceTree = "<group>"; };
 		70889C3C2B1912C90072AA60 /* NumberIdentifierUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberIdentifierUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		70889C492B1914E60072AA60 /* MNISTClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MNISTClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				70889C192B1912BE0072AA60 /* AppDelegate.swift */,
 				70889C1B2B1912BE0072AA60 /* SceneDelegate.swift */,
 				70889C1D2B1912BE0072AA60 /* ViewController.swift */,
+				70889C492B1914E60072AA60 /* MNISTClassifier.mlmodel */,
 				70889C1F2B1912BE0072AA60 /* Main.storyboard */,
 				70889C222B1912C80072AA60 /* Assets.xcassets */,
 				70889C242B1912C80072AA60 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 				70889C1E2B1912BE0072AA60 /* ViewController.swift in Sources */,
 				70889C1A2B1912BE0072AA60 /* AppDelegate.swift in Sources */,
 				70889C1C2B1912BE0072AA60 /* SceneDelegate.swift in Sources */,
+				70889C4A2B1914E70072AA60 /* MNISTClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +454,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,6 +483,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
